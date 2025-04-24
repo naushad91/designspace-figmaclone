@@ -59,6 +59,10 @@ model User {
     name          String?
     email         String?   @unique
     emailVerified DateTime?
+<<<<<<< HEAD
+=======
+    password      String
+>>>>>>> 70adef7 (feat: setup project and remove unnnecssary files and add icon)
     image         String?
     accounts      Account[]
     sessions      Session[]
